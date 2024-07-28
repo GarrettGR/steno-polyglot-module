@@ -3,7 +3,7 @@ id: polyglot
 name: Polyglot
 type: shield
 url: https://github.com/petercpark/stenokeyboards-firmware/tree/master
-requires: [nice_nano_v1]
+requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys

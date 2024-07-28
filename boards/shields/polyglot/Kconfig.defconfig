@@ -1,6 +1,15 @@
-if SHIELD_MY_BOARD
+if SHIELD_POLYGLOT
 
 config ZMK_KEYBOARD_NAME
-    default "Polyglot"
+    default "StenoKeyboards Polyglot"
 
 endif
+
+if CHARACHORDER_ENGINE
+
+config I2C
+    default y
+
+# probably have to configure a little more... TBD
+
+endif # CCE
