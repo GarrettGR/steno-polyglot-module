@@ -5,7 +5,6 @@
 include:
   - board: nice_nano_v2
     shield: polyglot
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y # enable logging while testing
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: reset

@@ -2,9 +2,9 @@ file_format: "1"
 id: polyglot
 name: Polyglot
 type: shield
-url: https://github.com/petercpark/stenokeyboards-firmware/tree/master
+url: https://github.com/petercpark/stenokeyboards-firmware/tree/master # fix this link (to the website not the firmware ??)
 requires: [pro_micro]
-exposes: [i2c_oled]
+# exposes: [i2c_oled]
 features:
   - keys
   # - display

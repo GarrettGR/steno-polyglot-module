@@ -3,7 +3,7 @@ if SHIELD_POLYGLOT
 config ZMK_KEYBOARD_NAME
     default "StenoKeyboards Polyglot"
 
-endif
+endif # Name
 
 if CHARACHORDER_ENGINE
 
