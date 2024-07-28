@@ -1,7 +1,7 @@
 if SHIELD_POLYGLOT
 
 config ZMK_KEYBOARD_NAME
-    default "StenoKeyboards Polyglot"
+    default "Polyglot"
 
 endif # Name
 
